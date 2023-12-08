@@ -1,6 +1,16 @@
-# dataset_belajar_sql_for_data_analyst
+# Dataset Belajar SQL For Data Analyst
+
 Repo ini berisi dataset  ketika saya belajar sql for data analyst. *semua data yang dilampirkan bukan merupakan data asli (hanya keperluan untuk belajar mengolah data pada PostgreSQL).
-order_detail:
+
+>**Dataset:**  
+1. order_detail  
+2. sku_detail  
+3. customer_detail  
+4. payment_detail
+
+Data yang digunakan adalah data yang berasal dari Tokopedia (*_bukan data sesungguhnya_). Adapun penjelasan dari dataset ini adalah sebagai berikut:
+
+>**order_detail:**
 1. id → angka unik dari order / id_order
 2. customer_id → angka unik dari pelanggan
 3. order_date → tanggal saat dilakukan transaksi
@@ -14,15 +24,18 @@ order_detail:
 11. is_valid → menunjukkan pelanggan sudah melakukan pembayaran
 12. is_net → menunjukkan transaksi sudah selesai
 13. payment_id → angka unik dari metode pembayaran
-sku_detail:
+
+>**sku_detail:**
 1. id → angka unik dari produk (dapat digunakan untuk key saat join)
 2. sku_name → nama dari produk
 3. base_price → harga barang yang tertera pada tagging harga / price
 4. cogs → cost of goods sold / total biaya untuk menjual 1 produk
 5. category → kategori produk
-customer_detail:
+
+>**customer_detail:**
 1. id → angka unik dari pelanggan
 2. registered_date → tanggal pelanggan mulai mendaftarkan diri sebagai anggota
-Payment_detail:
+
+>**Payment_detail:**
 1. id → angka unik dari metode pembayaran
 2. payment_method → metode pembayaran yang digunakan
